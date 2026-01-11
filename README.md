@@ -14,7 +14,6 @@ A simple and interactive **ToDo application built with React** that allows users
 - ❌ Delete all tasks at once
 - 👀 Show more / show less / show all tasks
 - 💾 Persistent storage using `localStorage`
-- 🎨 Visual edit indicator using grayscale toggle on edit icon
 
 ---
 
@@ -38,8 +37,7 @@ src/
 ├── App.css
 ├── App.jsx
 └── main.jsx
-
----
+```
 
 ## ⚙️ How It Works
 
