@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+  min-height: 50vh;
+}
+
+form fieldset input{
+  color: black;
+  font-size: larger;
+  border-radius: 0.25rem;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+li{
+  border: 2px solid #222222;
+  background: #EEEFFF;
+  border-radius: 0.5rem;
+  width: 62ch;
+  margin-bottom: 25px;
+  padding: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  will-change: contents;
+}
+
+li:hover{
+  scale: 1.0125;
+  transition: all 0.5s ease;
+}
+
+li img:nth-of-type(1){
+  filter: grayscale(0.5);
+}
+
+li img:nth-of-type(2){
+  filter: invert(1);
+}
+
+li img:nth-of-type(2):hover{
+  filter: invert(0);
+}
+
+li img:hover{
+  cursor: pointer;
+}
